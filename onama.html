@@ -1,0 +1,159 @@
+<style>
+    .prvimeni a{
+        text-decoration:none;
+        font-weight:bold;
+    }
+    .prvimeni{
+        display:flex;
+        background-color:#212F3D;
+        height:80px;
+        border-bottom: 4px solid #F8C471;
+    }
+    .prvimenidesni {
+        text-align:right;
+        padding-right:80px;
+        padding-top:30px;
+        flex-grow:3;
+    }
+    .prvimenilevi{
+        text-align: right;
+        flex-grow:8;
+    }
+    .prvimenilevi a img {
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+    }
+    #pomoc{
+        color:#CACFD2;
+    }
+    .prvimenidesni a{
+        font-size: 16px;
+        padding-right:15px;
+        color:#CACFD2 ;
+    }
+    .prvimenidesni a:hover{
+        color:#F8C471;
+        opacity:80%;
+        font-size:20px;
+        transition: 500ms;
+    }
+    .drugimeni {
+        background-color:white;
+    }
+    .drugimeni h2{
+        text-align:center;
+        font-size:40px;
+        font-weight:bold;
+        margin: 0 auto;
+        margin-top: 10px;
+        font-family:monaco;
+        color:#212F3D;
+    }
+    *{
+        padding:0;
+        margin: 0;
+    }
+    .solution {
+        background-color: #212F3D;
+        margin-top: 10px;
+        height: 80%;
+        display: flex;
+        color: #F8C471;
+    }
+    .levo {
+        width: 0%;
+        border-top: 3px solid #F8C471;
+        border-bottom: 3px solid #F8C471;
+        flex-grow: 1;
+    }
+    .desno {
+        width: 0%;
+        border: 3px solid #F8C471;
+        flex-grow: 1;
+    }
+    .desno h1 {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .levo h1 {
+        text-align: center;
+        padding: 10px;
+    }
+    .levo p {
+        font-family: monaco;
+        font-size: 24px;
+        padding: 20px;
+    }
+    table, th, td {
+        border:2px solid #F8C471;
+        border-collapse:collapse;
+    }
+    .desno table {
+        color:#F8C471;
+        width: 500px;
+        height: 300px;
+        padding: 5px;
+        margin: 0 auto;
+        text-align: center;
+    }
+</style>
+<div class="prvimeni">
+    <div class="prvimenilevi">
+        <a href = "home.html"><img src = "bank.png"></a>
+    </div>
+    <div class="prvimenidesni">
+        <a href = "onama.html">O nama</a>
+        <a href = "nalog.html">Nalog</a>
+        <a href = "kontakt.html">Kontakt</a>
+        <a href = "kredit.html">Krediti</a>
+        <a href = "">Registracija</a>
+    </div>
+    </div>
+    <div class="drugimeni">
+        <h2>O NAMA</h2>
+    </div>
+    <div class ="solution">
+        <div class = "levo">
+            <h1>NLB Komercijalna banka</h1>
+            <p>NLB Komercijalna banka je banka univerzalnog tipa, koja pruža sve vrste bankarskih usluga svim kategorijama klijenata,
+                od građana, preko preduzetnika, malih i srednjih preduzeća, pa sve do najvećih domaćih i internacionalnih kompanija.
+
+                Kao sistemska banka, posedujemo sopstvenu likvidnost i jednu od najvećih mreža bankomata i ekspozitura u Srbiji,
+                 ali naš najveći kapital je fer, transparentan odnos poverenja s više od milion aktivnih klijenata.
+                
+                Upravo oni su u fokusu svih naših aktivnosti.
+                 To znači da svoje poslovanje razvijamo ukorak sa njihovim potrebama – uvek vođeni motom da ne prodajemo proizvode,
+                  već kreiramo kompletne finansijske odgovore na njihova životna i poslovna pitanja.</p>
+        </div>
+        <div class = "desno">
+            <h1>Kursna lista</h1>
+            <table>
+                <tr>
+                    <th>1.3.2024.</th>
+                    <th>KUPOVNI</th>
+                    <th>SREDNJI</th>
+                    <th>PRODAJNI</th>
+                </tr>
+                <tr>
+                    <td>Evro</td>
+                    <td>114,95</td>
+                    <td>117,18</td>
+                    <td>119,40</td>
+                </tr>
+                <tr>
+                    <td>Dolar</td>
+                    <td>105,50</td>
+                    <td>108,15</td>
+                    <td>110,80</td>
+                </tr>
+                <tr>
+                    <td>Franak</td>
+                    <td>116,94</td>
+                    <td>123,10</td>
+                    <td>129,25</td>
+                </tr>
+            </table>
+        </div>
+    </div>
