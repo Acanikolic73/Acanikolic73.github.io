@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id = "lvl">Level 1</h1>
+        <div id="Board">
+            <div id="cell00" class="cell" onmouseover="move(0,0)" contenteditable="true"></div>
+            <div id="cell01" class="cell" onmouseover="move(0,1)" contenteditable="true"></div>
+            <div id="cell02" class="cell borderRight" onmouseover="move(0,2)" contenteditable="true"></div>
+            <div id="cell03" class="cell" onmouseover="move(0,3)" contenteditable="true"></div>
+            <div id="cell04" class="cell" onmouseover="move(0,4)" contenteditable="true"></div>
+            <div id="cell05" class="cell borderRight" onmouseover="move(0,5)" contenteditable="true"></div>
+            <div id="cell06" class="cell" onmouseover="move(0,6)" contenteditable="true"></div>
+            <div id="cell07" class="cell" onmouseover="move(0,7)" contenteditable="true"></div>
+            <div id="cell08" class="cell" onmouseover="move(0,8)" contenteditable="true"></div>
+            <div id="cell10" class="cell" onmouseover="move(1,0)" contenteditable="true"></div>
+            <div id="cell11" class="cell" onmouseover="move(1,1)" contenteditable="true"></div>
+            <div id="cell12" class="cell borderRight" onmouseover="move(1,2)" contenteditable="true"></div>
+            <div id="cell13" class="cell" onmouseover="move(1,3)" contenteditable="true"></div>
+            <div id="cell14" class="cell" onmouseover="move(1,4)" contenteditable="true"></div>
+            <div id="cell15" class="cell borderRight" onmouseover="move(1,5)" contenteditable="true"></div>
+            <div id="cell16" class="cell" onmouseover="move(1,6)" contenteditable="true"></div>
+            <div id="cell17" class="cell" onmouseover="move(1,7)" contenteditable="true"></div>
+            <div id="cell18" class="cell" onmouseover="move(1,8)" contenteditable="true"></div>
+            <div id="cell20" class="cell borderBottom" onmouseover="move(2,0)" contenteditable="true"></div>
+            <div id="cell21" class="cell borderBottom" onmouseover="move(2,1)" contenteditable="true"></div>
+            <div id="cell22" class="cell borderRight borderBottom" onmouseover="move(2,2)" contenteditable="true"></div>
+            <div id="cell23" class="cell borderBottom" onmouseover="move(2,3)" contenteditable="true"></div>
+            <div id="cell24" class="cell borderBottom" onmouseover="move(2,4)" contenteditable="true"></div>
+            <div id="cell25" class="cell borderRight borderBottom" onmouseover="move(2,5)" contenteditable="true"></div>
+            <div id="cell26" class="cell borderBottom" onmouseover="move(2,6)" contenteditable="true"></div>
+            <div id="cell27" class="cell borderBottom" onmouseover="move(2,7)" contenteditable="true"></div>
+            <div id="cell28" class="cell borderBottom" onmouseover="move(2,8)" contenteditable="true"></div>
+            <div id="cell30" class="cell" onmouseover="move(3,0)" contenteditable="true"></div>
+            <div id="cell31" class="cell" onmouseover="move(3,1)" contenteditable="true"></div>
+            <div id="cell32" class="cell borderRight" onmouseover="move(3,2)" contenteditable="true"></div>
+            <div id="cell33" class="cell" onmouseover="move(3,3)" contenteditable="true"></div>
+            <div id="cell34" class="cell" onmouseover="move(3,4)" contenteditable="true"></div>
+            <div id="cell35" class="cell borderRight" onmouseover="move(3,5)" contenteditable="true"></div>
+            <div id="cell36" class="cell" onmouseover="move(3,6)" contenteditable="true"></div>
+            <div id="cell37" class="cell" onmouseover="move(3,7)" contenteditable="true"></div>
+            <div id="cell38" class="cell" onmouseover="move(3,8)" contenteditable="true"></div>
+            <div id="cell40" class="cell" onmouseover="move(4,0)" contenteditable="true"></div>
+            <div id="cell41" class="cell" onmouseover="move(4,1)" contenteditable="true"></div>
+            <div id="cell42" class="cell borderRight" onmouseover="move(4,2)" contenteditable="true"></div>
+            <div id="cell43" class="cell" onmouseover="move(4,3)" contenteditable="true"></div>
+            <div id="cell44" class="cell" onmouseover="move(4,4)" contenteditable="true"></div>
+            <div id="cell45" class="cell borderRight" onmouseover="move(4,5)" contenteditable="true"></div>
+            <div id="cell46" class="cell" onmouseover="move(4,6)" contenteditable="true"></div>
+            <div id="cell47" class="cell" onmouseover="move(4,7)" contenteditable="true"></div>
+            <div id="cell48" class="cell" onmouseover="move(4,8)" contenteditable="true"></div>
+            <div id="cell50" class="cell borderBottom" onmouseover="move(5,0)" contenteditable="true"></div>
+            <div id="cell51" class="cell borderBottom" onmouseover="move(5,1)" contenteditable="true"></div>
+            <div id="cell52" class="cell borderRight borderBottom" onmouseover="move(5,2)" contenteditable="true"></div>
+            <div id="cell53" class="cell borderBottom" onmouseover="move(5,3)" contenteditable="true"></div>
+            <div id="cell54" class="cell borderBottom" onmouseover="move(5,4)" contenteditable="true"></div>
+            <div id="cell55" class="cell borderRight borderBottom" onmouseover="move(5,5)" contenteditable="true"></div>
+            <div id="cell56" class="cell borderBottom" onmouseover="move(5,6)" contenteditable="true"></div>
+            <div id="cell57" class="cell borderBottom" onmouseover="move(5,7)" contenteditable="true"></div>
+            <div id="cell58" class="cell borderBottom" onmouseover="move(5,8)" contenteditable="true"></div>
+            <div id="cell60" class="cell" onmouseover="move(6,0)" contenteditable="true"></div>
+            <div id="cell61" class="cell" onmouseover="move(6,1)" contenteditable="true"></div>
+            <div id="cell62" class="cell borderRight" onmouseover="move(6,2)" contenteditable="true"></div>
+            <div id="cell63" class="cell" onmouseover="move(6,3)" contenteditable="true"></div>
+            <div id="cell64" class="cell" onmouseover="move(6,4)" contenteditable="true"></div>
+            <div id="cell65" class="cell borderRight" onmouseover="move(6,5)" contenteditable="true"></div>
+            <div id="cell66" class="cell" onmouseover="move(6,6)" contenteditable="true"></div>
+            <div id="cell67" class="cell" onmouseover="move(6,7)" contenteditable="true"></div>
+            <div id="cell68" class="cell" onmouseover="move(6,8)" contenteditable="true"></div>
+            <div id="cell70" class="cell" onmouseover="move(7,0)" contenteditable="true"></div>
+            <div id="cell71" class="cell" onmouseover="move(7,1)" contenteditable="true"></div>
+            <div id="cell72" class="cell borderRight" onmouseover="move(7,2)" contenteditable="true"></div>
+            <div id="cell73" class="cell" onmouseover="move(7,3)" contenteditable="true"></div>
+            <div id="cell74" class="cell" onmouseover="move(7,4)" contenteditable="true"></div>
+            <div id="cell75" class="cell borderRight" onmouseover="move(7,5)" contenteditable="true"></div>
+            <div id="cell76" class="cell" onmouseover="move(7,6)" contenteditable="true"></div>
+            <div id="cell77" class="cell" onmouseover="move(7,7)" contenteditable="true"></div>
+            <div id="cell78" class="cell" onmouseover="move(7,8)" contenteditable="true"></div>
+            <div id="cell80" class="cell" onmouseover="move(8,0)" contenteditable="true"></div>
+            <div id="cell81" class="cell" onmouseover="move(8,1)" contenteditable="true"></div>
+            <div id="cell82" class="cell borderRight" onmouseover="move(8,2)" contenteditable="true"></div>
+            <div id="cell83" class="cell" onmouseover="move(8,3)" contenteditable="true"></div>
+            <div id="cell84" class="cell" onmouseover="move(8,4)" contenteditable="true"></div>
+            <div id="cell85" class="cell borderRight" onmouseover="move(8,5)" contenteditable="true"></div>
+            <div id="cell86" class="cell" onmouseover="move(8,6)" contenteditable="true"></div>
+            <div id="cell87" class="cell" onmouseover="move(8,7)" contenteditable="true"></div>
+            <div id="cell88" class="cell" onmouseover="move(8,8)" contenteditable="true"></div>
+        </div>
+        <div id="iskoci">
+            <p>Unesite broj</p>
+            <input type="text" id="unos">
+            <br>
+            <br>
+            <input type="button" value="Unesi" onclick="clk()">
+            <input type="button" value="Odustani" onclick="spusti()">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: arial rounded mt;
+    color: rgb(14, 69, 100);
+    background-color: rgb(252, 241, 227);
+    user-select: none;
+}
+#Board
+{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border: 4px solid rgb(14, 69, 100);
+    border-radius: 25px;
+    box-shadow: 0 0 80px black;
+}
+.cell
+{
+    width: 11.111%;
+    height: 11.111%;
+    background-color: rgb(213, 216, 231);
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    border: 1px solid rgb(14, 69, 100);
+}
+.borderRight
+{
+    border-right: 4px solid rgb(14, 69, 100);
+}
+.borderBottom
+{
+    border-bottom: 4px solid rgb(14, 69, 100);
+}
+#cell00
+{
+    border-radius: 20px 0 0 0;
+}
+#cell08
+{
+    border-radius: 0 20px 0 0;
+}
+#cell88
+{
+    border-radius: 0 0 20px 0;
+}
+#cell80
+{
+    border-radius: 0 0 0 20px;
+}
+#iskoci {
+    border: 2px solid red;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 18%;
+    z-index: 1;
+    position: relative;
+    background-color: cyan;
+    display: none;
+}
+#lvl {
+    text-align: center;
+    margin-top: 4%;
+}
